@@ -1,0 +1,28 @@
+# Qt / C++ build files
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Qt Creator / IDE files
+*.pro.user
+*.autosave
+*.qmlc
+*.jsc
+
+# Generated Qt files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# CMake (if ever used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# OS files
+.DS_Store
+Thumbs.db
